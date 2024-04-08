@@ -6,6 +6,9 @@
     user-select: none;
     box-sizing: border-box;
 }
+body{
+    background-color: antiquewhite;
+}
 /* ? Styles Header */
 header{
     display: flex;
@@ -17,6 +20,7 @@ header{
     height: 100vh;
 }
 .texto-apre{
+    background-color: transparent;
     position: absolute;
     display: flex;
     justify-content: flex-start;
@@ -40,6 +44,7 @@ header{
     flex-direction: column;
     .sobre{
         cursor: pointer;
+        background-color: white;
         padding: 1% 5%;
         margin: 0 auto;
         border-radius: 15px;
@@ -70,20 +75,23 @@ header{
 /* ? Styles corpo */
 
 /* ? Styles Parcerias */
-
+.txt-parceiros{
+    font-size: 2.4rem;
+    text-align: center;
+}
 .parcerias{
     display: flex;
     gap: 1%;
     padding: 0 1%;
     margin: 0 2% 5% 2%;
-    border: 1px solid black;
     overflow: auto;
     .cliente{
+        background-color: white;
         width: 400px;
         display: flex;
         flex-direction: column;
-        border: 1px solid black;
         border-radius: 10px;
+        border-bottom: 1px solid black;
         img{
             border-radius: 10px 10px 0 0;
         }
