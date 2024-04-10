@@ -1,104 +1,201 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Landing page ref a empresa: CoreGenius Solutions.">
-    <meta name="keyboard" content="HTML,CSS, Js">
+    <meta name="description" content="Landing page ref a empresa: Code Hive Studios.">
+    <meta name="keyboard" content="HTML,CSS, Js e BootStrap">
     <meta name="author" content="PedroPog">
-    <title>Landing Page</title>
+    <meta name="image" content="./assets/logo-preto-light01.png">
+    <title>Code Hive Studios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./assets/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-
-<body>
-    <header>
-        <section class="texto-apre">
-            <p class="txt-apre">CoreGenius Solutions.</p>
-        </section>
-        <!-- <section class="logo" id="logo-prin"> -->
-        <img class="logo" id="logo-prin" src="https://place-hold.it/1000x900" alt="imagem pub">
-        <!-- </section> -->
-    </header>
-    <article class="corpo">
-        <div class="sobre" onmouseenter="shake(this)">
-            <h1>Titulo</h1>
-            <span>
-                <ul>
-                    <li>Sobre algumas coisas 1</li>
-                    <li>Sobre algumas coisas 2</li>
-                    <li>Sobre algumas coisas 3</li>
-                </ul>
-            </span>
+<body class="body">
+    <div class="hero">
+      <div role="banner" class="nav w-nav">
+        <div class="nav-inner">
+          <div class="nav-logo-wrap">
+            <a href="#" class="brand w-nav-brand">
+                <img src="./assets/logo-preto-light01.png" width="94.5" alt="" sizes="94.5px" srcset="./assets/logo-preto-light01.png 500w, ./assets/logo-preto-light01.png 800w, ./assets/logo-preto-light01.png 1024w">
+            </a>
+          </div>
+          <div class="nav-menu-wrap">
+            <nav role="navigation" class="nav-menu-2 w-nav-menu d-flex">
+              <a href="#about" class="nav-link w-nav-link">Sobre</a>
+              <a href="#features" class="nav-link w-nav-link">Parceiros</a>
+              <a href="#servico" class="nav-link w-nav-link">Serviços</a>
+              <a href="#contatc" class="nav-link w-nav-link">Contato</a>
+            </nav>
+            <div class="menu-button w-nav-button">
+              <div class="menu-icon w-icon-nav-menu"></div>
+            </div>
+          </div>
         </div>
-        <div class="sobre" onmouseenter="shake(this)">
-            <h1>Titulo</h1>
-            <span>
-                <ul>
-                    <li>Sobre algumas coisas 1</li>
-                    <li>Sobre algumas coisas 2</li>
-                    <li>Sobre algumas coisas 3</li>
-                </ul>
-            </span>
+      </div>
+    </div>
+    <div class="section center">
+      <img src="./assets/arrow.svg" alt="" class="arrow">
+      <div class="hero-content">
+        <h1 class="heading-3">Code Hive Studios</h1>
+        <h3 class="hero-subhead">Eleve a experiência virtual a outros patamares,<br>criamos sites e aplicativos que inspiram, conectam e impressionam.</h3>
+        <a href="#" class="button w-button">Veja nossos serviços.</a>
+      </div>
+      <img src="./assets/colmeia.png" loading="lazy" width="660" alt="" class="image-5">
+    </div>
+    <div id="about" class="section wide img">
+      <div class="wrap">
+        <div class="title">Code hive studios</div>
+        <h2>Quem somos?</h2>
+      </div>
+      <div class="w-layout-blockcontainer container w-container">
+        <div class="w-layout-blockcontainer container-2 w-container">
+            <img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="">
+          <p class="paragraph-2">Na Code Hive Studios, nós criamos soluções digitais inovadoras para os desafios dos nossos clientes. 
+            Com vasta experiência e expertise técnica, transformamos ideias em realidade digital. 
+            Nosso foco no cliente garante resultados excepcionais em cada projeto. Estamos prontos para impulsionar o seu sucesso digital.</p>
         </div>
-        <div class="sobre" onmouseenter="shake(this)">
-            <h1>Titulo</h1>
-            <span>
-                <ul>
-                    <li>Sobre algumas coisas 1</li>
-                    <li>Sobre algumas coisas 2</li>
-                    <li>Sobre algumas coisas 3</li>
-                </ul>
-            </span>
+      </div>
+      <div class="wrapper"></div>
+    </div>
+    <div class="section">
+      <div class="feature-wrap">
+        <div class="feature-content">
+          <div class="title">Code hive studios</div>
+          <h2 class="black"><strong>Visão</strong></h2>
+          <p>Nossa visão é sermos líderes reconhecidos no setor de desenvolvimento de software, 
+            estabelecendo padrões de excelência e inovação que inspirem e transformem o mundo dos 
+            negócios. Buscamos constantemente novas maneiras de aprimorar a experiência do usuário, 
+            superar desafios técnicos e impulsionar o crescimento sustentável para nossos clientes e 
+            parceiros.</p>
         </div>
-    </article>
-    <h1 class="txt-parceiros">Parceiros</h1>
-    <section class="parcerias" id="data">
-        <div class="cliente">
-            <!-- <img loading="lazy" src="assets/at.png" alt="cliente Atlatic Travel" width="400"> -->
-            <img loading="lazy" src="https://place-hold.it/400x200" alt="cliente Atlatic Travel" width="400"
-                height="200">
-            <!-- <span>Atlantic Travel</span> -->
-            <span>GENERICO</span>
+        <div class="feature-image">
+            <img src="./assets/at.png" width="500" loading="lazy" srcset="./assets/at.png 500w, ./assets/at.png 800w, ./assets/at.png 1080w, ./assets/at.png 1353w" alt="" class="image-6">
         </div>
-        <div class="cliente">
-            <!-- <img loading="lazy" src="assets/at.png" alt="cliente Atlatic Travel" width="400"> -->
-            <img loading="lazy" src="https://place-hold.it/400x200" alt="cliente Atlatic Travel" width="400"
-                height="200">
-            <!-- <span>Atlantic Travel</span> -->
-            <span>GENERICO</span>
+      </div>
+      <div class="feature-wrap reverse">
+        <div class="feature-content">
+          <h2 class="black-text">Missão</h2>
+          <p>Nossa missão na Code Hive Studios é capacitar empresas com tecnologia de ponta que otimize suas 
+            operações, impulsione o crescimento e promova uma vantagem competitiva no mercado. 
+            Estamos empenhados em fornecer soluções personalizadas e serviços excepcionais que 
+            impulsionem o sucesso de nossos clientes, permitindo-lhes alcançar todo o seu potencial no
+             mundo digital em constante evolução.</p>
         </div>
-        <div class="cliente">
-            <!-- <img loading="lazy" src="assets/at.png" alt="cliente Atlatic Travel" width="400"> -->
-            <img loading="lazy" src="https://place-hold.it/400x200" alt="cliente Atlatic Travel" width="400"
-                height="200">
-            <!-- <span>Atlantic Travel</span> -->
-            <span>GENERICO</span>
+        <div class="feature-image">
+            <img src="./assets/at.png" width="500" loading="lazy" alt="" sizes="(max-width: 479px) 90vw, (max-width: 991px) 40vw, 29vw" srcset="./assets/at.png 500w, ./assets/at.png 540w" class="image-6">
         </div>
-        <div class="cliente">
-            <!-- <img loading="lazy" src="assets/at.png" alt="cliente Atlatic Travel" width="400"> -->
-            <img loading="lazy" src="https://place-hold.it/400x200" alt="cliente Atlatic Travel" width="400"
-                height="200">
-            <!-- <span>Atlantic Travel</span> -->
-            <span>GENERICO</span>
+      </div>
+      <div class="feature-wrap">
+        <di class="feature-content">
+          <h2 class="black-text"><strong>Valores</strong></h2>
+          <ul style="list-style: decimal;">
+            <li><span>Inovação</span></li>
+            <li><span>Excelência</span></li>
+            <li><span>Parceria</span></li>
+            <li><span>Transparência</span></li>
+            <li><span>Compromisso</span></li>
+            <!-- <li><span>Inovação</span>: Estamos sempre explorando novas ideias e tecnologias para criar soluções sob medida que atendam às necessidades exclusivas de cada cliente.</li>
+            <li><span>Excelência</span>: Nosso compromisso com a qualidade é evidente em cada linha de código que escrevemos e em cada projeto que entregamos. Buscamos a excelência em tudo o que fazemos.</li>
+            <li><span>Parceria</span>: Acreditamos em construir relacionamentos sólidos e de longo prazo com nossos clientes, colaborando de perto para alcançar objetivos comuns e impulsionar o sucesso mútuo.</li>
+            <li><span>Transparência</span>: Mantemos uma comunicação aberta e transparente em todas as etapas do processo, garantindo que nossos clientes estejam sempre informados e envolvidos em suas soluções digitais.</li>
+            <li><span>Compromisso</span>: Estamos comprometidos em oferecer resultados excepcionais, cumprir prazos e superar as expectativas dos nossos clientes em cada projeto que assumimos.</li> -->
+          </ul>
+        </di>
+        <div class="feature-image">
+            <img src="./assets/at.png" width="500" loading="lazy" alt="" class="image-6">
         </div>
-        <div class="cliente">
-            <!-- <img loading="lazy" src="assets/at.png" alt="cliente Atlatic Travel" width="400"> -->
-            <img loading="lazy" src="https://place-hold.it/400x200" alt="cliente Atlatic Travel" width="400"
-                height="200">
-            <!-- <span>Atlantic Travel</span> -->
-            <span>GENERICO</span>
+      </div>
+      <div class="feature-wrap" id="features">
+        <div class="feature-content">
+          <h2 class="black-text">Parceiros</h2>
+          <p>A Code Hive Studios tem o prazer de servir a Atlantic Travel, uma renomada empresa de cruzeiros de luxo. 
+            Nossa parceria permite que eles ofereçam experiências digitais excepcionais aos seus clientes, 
+            garantindo uma jornada inesquecível desde o primeiro clique até a viagem de luxo a bordo de seus navios.</p>
         </div>
-    </section>
-
-    <button class="top show" id="btn-up">
-        <span class="material-symbols-outlined">
-            expand_less
-        </span>
-    </button>
-    <script src="script.js"></script>
+        <div class="feature-image">
+            <img src="./assets/at.png" width="500" loading="lazy" alt="" sizes="(max-width: 479px) 90vw, (max-width: 767px) 40vw, (max-width: 991px) 45vw, 37vw" srcset="./assets/at.png 500w, ./assets/at.png 800w, ./assets/at.png 1080w, images/at.png 1353w" class="image-6">
+        </div>
+      </div>
+      <div class="quote-slider w-slider">
+        <div class="w-slider-mask">
+          <div class="w-slide">
+            <div class="quote-wrap">
+                <img src="./assets/quotation.svg" width="58" alt="" class="quote-icon">
+              <h3>Em nome da Atlantic Travel, gostaríamos de expressar nossa sincera gratidão à 
+                Code Hive Studios pelo excepcional trabalho realizado na criação do nosso novo site. 
+                Sua dedicação, expertise e comprometimento garantiram que nossa presença online refletisse 
+                verdadeiramente a excelência e o luxo que oferecemos em nossos cruzeiros. 
+                Estamos ansiosos para continuar nossa parceria e alcançar novos horizontes juntos. 
+                Muito obrigado pela colaboração excepcional!</h3>
+              <div class="quote-attribution">
+                <p>José Manoel</p>
+                <div class="quote-dash"></div>
+                <p><strong>Terra</strong></p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="w-slide">
+            <div class="quote-wrap">
+                <img src="./assets/quotation.svg" width="58" alt="" class="quote-icon">
+              <h3>HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, 
+                nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit amet fermentum. 
+                Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.ing</h3>
+              <div class="quote-attribution">
+                <div class="quote-dash"></div>
+                <p>Nulla vitae elit libero, a pharetra augue.</p>
+                <p><strong>New York Times</strong></p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div class="left-arrow w-slider-arrow-left">
+          <div class="slider-arrow w-icon-slider-left"></div>
+        </div>
+        <div class="right-arrow w-slider-arrow-right">
+          <div class="slider-arrow w-icon-slider-right"></div>
+        </div>
+        <div class="slide-nav w-slider-nav w-slider-nav-invert w-round"></div>
+      </div>
+      <div class="feature-wrap logos">
+        <img src="images/logos.png" alt="" sizes="(max-width: 991px) 90vw, (max-width: 3885px) 70vw, 2720px" srcset="images/logos-p-500.png 500w, images/logos-p-800.png 800w, images/logos-p-1080.png 1080w, images/logos-p-1600.png 1600w, images/logos.png 2720w">
+      </div>
+    </div>
+    <div class="section wide purple">
+      <div class="wrap">
+        <h2>Pronto para começar?</h2>
+        <div class="button-wrap">
+          <a href="#" class="button w-button">Entrar em contato</a>
+        </div>
+      </div>
+    </div>
+    <div id="contatc" class="section wide">
+      <div class="wrap">
+        <h2>Fale conosco:</h2>
+        <p>Peça uma contação sobre seu site.</p>
+        <div class="form-block w-form">
+          <form id="email-form" name="email-form" method="get" class="form-2" >
+            <input class="input w-input" maxlength="256" name="email-2" placeholder="Entre com seu email" type="text" id="email-2" required>
+            <input type="submit" class="button form-button w-button" value="Subscribe">
+        </form>
+        </div>
+      </div>
+      <div class="wrapper"></div>
+    </div>
+    <div class="footer">
+      <div class="wrap">
+        <img src="./assets/logo-branco-dark02.png" width="136" alt="" sizes="136px" srcset="./assets/logo-branco-dark02.png 500w, ./assets/logo-branco-dark02.png 800w, ./assets/logo-branco-dark02.png 1024w">
+        <div class="footer-list">
+          <a href="#" class="footer-link">Email</a>
+          <a href="#" class="footer-link">Instagram</a>
+          <a href="#" class="footer-link">Facebook</a>
+          <a href="#" class="footer-link">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
-
 </html>
